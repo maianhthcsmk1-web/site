@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thế giới loài mèo</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#f5f5f5;
+}
+
+header{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.hero{
+    height:60vh;
+    background:url('https://images.unsplash.com/photo-1518791841217-8f162f1e1131') center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px;
+}
+
+.card p{
+    padding:0 10px 10px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🐱 Thế giới loài mèo</h1>
+    <p>Khám phá các giống mèo nổi tiếng trên thế giới</p>
+</header>
+
+<div class="hero">
+    MÈO - NHỮNG NGƯỜI BẠN DỄ THƯƠNG
+</div>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1574158622682-e40e69881006">
+<h3>Mèo Ba Tư</h3>
+<p>Lông dài, hiền lành, thích sống trong nhà.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6">
+<h3>Mèo Xiêm</h3>
+<p>Thông minh, hoạt bát, rất thích giao tiếp.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8">
+<h3>Mèo Bengal</h3>
+<p>Lông giống báo, cực kỳ năng động.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4">
+<h3>Maine Coon</h3>
+<p>Một trong những giống mèo lớn nhất thế giới.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987">
+<h3>Mèo Sphynx</h3>
+<p>Không có lông, ngoại hình độc lạ.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131">
+<h3>Scottish Fold</h3>
+<p>Tai cụp dễ thương, tính cách hiền.</p>
+</div>
+
+</div>
+
+</body>
+</html>
